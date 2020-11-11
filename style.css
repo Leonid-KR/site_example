@@ -1,0 +1,198 @@
+*
+{
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(189,103,66,0.6) 1%, rgba(0,0,0,0.0) 40%);
+    box-sizing: border-box;
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    width: 90vh;
+    min-height: 100vh;
+    border: solid rgba(0,0,0,0.7);
+    border-width: 0 2px;
+    box-sizing: border-box;
+    alignment: center;
+}
+
+a.header
+{
+    text-decoration: none;
+    color: black;
+    width:100%;
+    text-align: center;
+}
+
+.header h1
+{
+    padding: 5px;;
+    background-color: lightsteelblue;
+}
+
+nav
+{
+    position: sticky;
+    top: 0;
+    background-color: rgb(219,110,46);
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li
+{
+    text-align: center;
+    width: 15%;
+    float: left;
+    border-right: 2px solid rgb(189,100,36);
+}
+
+nav ul li:hover
+{
+    background-color: rgb(173,87,36);
+}
+
+nav ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(232,212,162);
+    font-size: 27px;
+    font-weight: bold;
+    padding: 12px 10px;
+}
+
+nav ul li:hover a
+{
+    color: white;
+}
+
+div.mscene
+{
+    margin-top: 12px;
+    margin-left: 4px;
+    padding: 0;
+    display: flex;
+}
+
+div.scene
+{
+    position: relative;
+    //float: left;
+    background-color: white;
+    width: 32%;
+    margin: 5px;
+    box-shadow: 2px 2px 5px black;
+    transition: transform 0.4s, border 0.4s;
+}
+
+div.scene:hover
+{
+    transform: scale(1.05, 1.05);
+}
+
+div.scene a
+{
+    text-decoration: none;
+    display: block;
+    height: 350px;
+}
+
+div.scene img
+{
+    width: 200px;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 2px solid rgb(125,125,125);
+}
+
+div.scene a p
+{
+    margin: 10px 15px 0 15px;
+    font-size: 16px;
+    color: black;
+}
+
+div.scene a p.date
+{
+    vertical-align: bottom;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    color: rgba(0,0,0,0.6);
+    font-size: 13px;
+}
+
+div.scene a h3
+{
+    text-align: center;
+    margin-top: 3px;
+    color: black;
+}
+
+.tipe
+{
+    padding: 5px;
+    background-color: lightblue;
+    border-left: 5px darkblue solid;
+    font-family: initial;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+}
+
+/*/////////////////////////////////////////////////*/
+.calc
+{
+    width: 120px;
+    border: 3px solid rgb(125,125,125);
+    background-color: rgb(200,200,200);
+    margin: 20px;
+}
+
+.calc input
+{
+    width: 95%;
+    border: aqua solid 1px;
+    color: aqua;
+    background-color: black;
+    border-collapse: collapse;
+}
+
+.calcOutput
+{
+    width:98%;
+    height: 20px;
+    border: aqua solid 1px;
+    color: aqua;
+    background-color: rgb(60,60,60);
+}
+
+.calcButtons
+{
+    display: flex;
+    justify-content: right;
+}
+
+.calcButtons button
+{
+    position: center;
+    color: aqua;
+    background-color: black;
+}
+

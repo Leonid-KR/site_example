@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>MySite</title>
+</head>
+<body>
+<div class="bod">
+    <div class="center">
+        <a class="header" href="index.html"><div><h1>Hi! Welcome to my site</h1></div></a>
+        <nav>
+            <ul>
+                <li><a href="">uno</a></li>
+                <li><a href="">due</a></li>
+                <li><a href="">thre</a></li>
+            </ul>
+        </nav>
+
+        <div class="calc">
+            <input type="text" placeholder="num1" id="sum1">
+            <input type="text" placeholder="num2" id="sum2">
+            <div class="calcOutput" id="calc_result"></div>
+            <div class="calcButtons">
+                <button onclick="calculator('+')">+</button>
+                <button onclick="calculator('-')">-</button>
+                <button onclick="calculator('*')">*</button>
+                <button onclick="calculator('/')">/</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
